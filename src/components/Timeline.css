@@ -1,0 +1,11 @@
+
+  
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+    position: absolute;
+    width: 100%;
+    left: 124%;
+    top: 6px;
+    font-size: 16px;
+    font-size: 1rem;
+    text-align: left;
+}

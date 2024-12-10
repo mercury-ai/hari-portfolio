@@ -1,0 +1,28 @@
+
+.icon {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .icon:hover::after {
+    content: attr(data-tech); /* Dynamic tooltip text */
+    position: absolute;
+    top: 100%; /* Position below the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333; /* Match your website theme */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 12px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .icon:hover::after {
+    opacity: 1; /* Show tooltip on hover */
+  }
+  
