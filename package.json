@@ -1,6 +1,5 @@
 {
   "name": "hari-portfolio",
-  "homepage": "https://mercury-ai.github.io/hari-portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +8,6 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tsparticles/all": "^3.5.0",
